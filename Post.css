@@ -1,0 +1,46 @@
+.PostForm {
+    background-color: #1175d9!important;
+    border: 1px solid black;
+    margin: 10%;
+    padding: 1%;
+}
+
+.card-body {
+    min-height: 10px;
+}
+
+
+#MyAllPost {
+    border : 1px solid red;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Del {
+    color: white;
+    background-color: red;
+}
+
+#Upd
+{
+    color :black;
+    background-color: green;
+}
+#postTable {
+    text-align: center;
+}
+
+
+.bg-light {
+    background-color: #1175d9!important;
+}
+
+
+a {
+    color: #f1f3f5;
+    text-decoration: none;
+    background-color: transparent;
+    border: #f1f3f5 solid;
+    font-weight: bold;
+}
