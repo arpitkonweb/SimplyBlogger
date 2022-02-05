@@ -25,7 +25,7 @@ function AllPost()
      
      for (i = 0 ; i < Titlearray.length ; i++) 
      {
-         ExpnTable+= ("<tr><td>"+(i+1)+"</td><td>"+Titlearray[i]+"</td><td>"+Descriptionarray[i]+"</td><td><button  id='Del' onclick=Delete("+i+")>D</button></td><td><button id='Upd' onclick=Update("+i+")>U</button></td></tr>");
+         ExpnTable+= ("<tr><td>"+(i+1)+"</td><td>"+Titlearray[i]+"</td><td>"+Descriptionarray[i]+"</td><td><button  id='Del' onclick=Delete("+i+")>D</button></td></tr>");
          
      }
     
@@ -57,20 +57,20 @@ function AllPost()
      }
  }
 
-//For Update
- function Update(i)
- {
+// //For Update
+//  function Update(i)
+//  {
     
-     let text = "You Want to Update Post "+(i+1);
+//      let text = "You Want to Update Post "+(i+1);
      
-     if (confirm(text) == true) {
-         Titlearray.splice(i, 1);
-         Descriptionarray.splice(i, 1);
+//      if (confirm(text) == true) {
+//          Titlearray.splice(i, 1);
+//          Descriptionarray.splice(i, 1);
          
-         AllPost()
-     } else {
-        alert('Canceled !!!');
-     }
- }
+//          AllPost()
+//      } else {
+//         alert('Canceled !!!');
+//      }
+//  }
 
  
